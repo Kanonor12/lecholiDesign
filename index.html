@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Lecholi</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <!-- Notice Board starts here -->
+     
+      <div class="notice-board">
+        <!--<div class="notice-container">-->
+        <!--<img src="/images/braaiSpecial.jpg" alt="" />-->
+        <a href="Order Now">
+          <div class="telephone">
+            <p id="order">Order Now!!</p>
+            <p><i class="fas fa-phone-square-alt"></i>58731332</p>
+          </div>
+        </a>
+        <!--</div>-->
+      </div>
+
+      <!-- Navigation bar starts here -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/images/logoBlack.jpeg" alt="" />
+        </div>
+
+        <nav class="navbar-menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#Braai@Home"
+            >Braai@<i class="fa fa-home fa-fw" aria-hidden="true"></i
+          ></a>
+          <a href="#combos">Shop Online</a>
+          <a href="Events">Events</a>
+          <a href="Review">Review</a>
+          <a href="Blog">Blog</a>
+          <a href="Contant">Contact</a>
+        </nav>
+
+        <div class="options-area">
+          <div class="fab fa-whatsapp" id="whatsapp-btn" aria-hidden="true"></div>
+          <div class="fa fa-search" id="search"></div>
+          <div class="fa fa-shopping-basket" id="basket-btn aria-hidden="true"></div>
+          <div class="dropDownMenu">
+            <div class="signup" id="sign-in-options" aria-hidden="true">
+              Sign In
+            </div>
+            <div class="signup-options" id=signup-options>
+               <a href="#" id="options">Sign Up</a>
+               <a href="#" id="options"> Log In</a>
+               
+            </div>
+          </div>
+              
+        </div>
+       
+        <!-- Signup Modal starts here -->
+        <div class="modal" id="email-modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-img-container">
+              <img src="images/lecholi1.jpeg" alt="">
+            </div>
+            <div class="modal-content-right">
+              <form action="/" method="get" class="modal-form" id="form">
+                <h1>
+                  Get started with us today! Create your account by filling out the
+                  information below
+                </h1>
+                <div class="form-validation">
+                  <input
+                    type="text"
+                    class="modal-input"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                  />
+                  <p>Error Message</p>
+                </div>
+                <div class="form-validation">
+                  <input
+                    type="email"
+                    class="modal-input"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                  />
+                  <p>Error Message</p>
+                </div>
+                <div class="form-validation">
+                  <input
+                    type="password"
+                    class="modal-input"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your passowrd"
+                  />
+                  <p>Error Message</p>
+                </div>
+                <div class="form-validation">
+                  <input
+                    type="password"
+                    class="modal-input"
+                    id="password-confirm"
+                    name="password-confirm"
+                    placeholder="Confirm your passord"
+                  />
+                  <p>Error Message</p>
+                </div>
+                <input type="submit" class="modal-input-btn" value="Sign Up" />
+                <span class="modal-input-login"
+                  >Already hava an account? Login<a href="#">Here</a></span
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+       <!-- <<div class="fa fa-bars" id="menu-btn"></div>
+
+        <div class="toggle">
+          <i class="fas fa-moon toggle-icon"></i>
+          <i class="fas fa-sun toggle-icon"></i>
+          <div class="toggle-ball"></div>
+        </div>-->
+      </nav>
+    </div>
+
+    <div class="side-menu">
+      <i class="side-menu-icon fas fa-search"></i>
+      <i class="side-menu-icon fas fa-home"></i>
+      <i class="side-menu-icon braai-at-home"
+        ><img src="/images/braaiIcon.jpg"
+      /></i>
+      <i class="side-menu-icon fas fa-shopping-cart"></i>
+      <i class="side-menu-icon fas fa-bookmark"></i>
+
+      <i class="side-menu-icon fas fa-hourglass-start"></i>
+    </div>
+
+    <!-- Content wrapper starts here -->
+    <div class="content-wrapper">
+      <!-- Home section starts here-->
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Fresh meat everyday</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            sapiente et, dolorem quaerat at praesentium quas eveniet itaque,
+            cupiditate ratione aut unde magni dolorum error illum asperiores
+            voluptatem natus voluptas.
+          </p>
+          <button class="button home-btn">Order Now</button>
+          <!--<a href="#" class="btn">Order Now</a>-->
+        </div>
+      </section>
+      <!-- Home content ends here -->
+
+      <!-- featured product section starts end -->
+      <div class="promo-container">
+        <div class="featured-product">
+          <img class="featured-image" src="images/namahali.jpeg" alt="" />
+          <div class="product-description">
+            <p class="featured-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+              illo dolor deserunt nam assumenda ipsa eligendi dolore, ipsum id
+              fugiat quo enim impedit, laboriosam omnis minima voluptatibus
+              incidunt. Accusamus, provident.
+            </p>
+            <button class="button featured-btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Featured product section ends here -->
+
+      <!-- How delivery works -->
+
+      <section class="top-container">
+        <header class="delivery">
+          <img src="images/meatVan.jpg" alt="" />
+          <h1>how delivery works</h1>
+          <!--<p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+            quam praesentium. Voluptate aspernatur excepturi reiciendis?
+          </p>-->
+          <a href="#" class="button">Place Order</a>
+        </header>
+        <div class="top-box top-box-a">
+          <img src="images/calling.jpg" id="delivery-image" alt="" />
+          <div class="box-container">
+            <h4>flexibility & convenience</h4>
+            <p>Choose your combo or make own and delivery time.</p>
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+        <div class="top-box top-box-b">
+          <img src="images/delivery.jpg" id="delivery-image" alt="" />
+          <div class="box-container">
+            <h4>delivery</h4>
+            <p>
+              We ship your order, frozen for freshness and packed in an
+              eco-friendly box.
+            </p>
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="own-combo">
+        <h3>Make your combo</h3>
+        <img class="own-combo-feature" src="images/comboSpecial.jpg" alt="" />
+        <p class="combo-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo
+          dolor deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo
+          enim impedit, laboriosam omnis minima voluptatibus incidunt.
+          Accusamus, provident.
+        </p>
+        <button class="button">Make Now</button>
+      </div>
+
+      <div class="combos" id="combos">
+        <div class="combo-list-item">
+          <img class="combo-list-item-img" src="images/khakaCombo.jpg" alt="" />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/molepeCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/naleliCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img class="combo-list-item-img" src="images/khakaCombo.jpg" alt="" />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/letsemaCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/molepeCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/naleliCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img class="combo-list-item-img" src="images/khakaCombo.jpg" alt="" />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/letsemaCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+        <div class="combo-list-item">
+          <img
+            class="combo-list-item-img"
+            src="images/molepeCombo.jpg"
+            alt=""
+          />
+          <button class="button combo-btn">BUY</button>
+        </div>
+      </div>
+      <!-- Footer Section -->
+      <footer>
+        <p>Developed by Kanono &copy; 2022</p>
+      </footer>
+    </div>
+    <!-- Content wrapper ends here -->
+    <script src="app.js"></script>
+  </body>
+</html>
